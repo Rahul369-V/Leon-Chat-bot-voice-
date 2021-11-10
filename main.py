@@ -147,7 +147,7 @@ cb.place(x=18, y=475, height=20, width=110)
 eb.place(x=270, y=475, height=20, width=110)
 ab.place(x=143, y=475, height=20, width=110)
 s.place(x=18, y=505, height=40, width=364)
-speak("Hello I'm Leon. I'm your personal assistant. How may I help you?")
+speak("Hello I'm Leon. I'm your personal assistant. How may I help you ?")
 layout.mainloop()
 
 
