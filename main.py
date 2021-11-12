@@ -53,7 +53,7 @@ def send():
                 speak("Current Time is {} {} {}".format(h,m,p))
                 out = 1       
         elif "weather" in msg.lower() and out==0:                
-                t.insert(END, "Bot: Looking for " + msg + '\n\n')  
+                t.insert(END, "Bot: Looking For " + msg + '\n\n')  
                 speak("Opening weather in google.com")
                 webbrowser.open('https://www.google.com/search?q={}'.format(msg))
                 out = 1       
